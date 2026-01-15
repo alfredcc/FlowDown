@@ -37,6 +37,16 @@ extension MainController {
 
         contentView.hideKeyboardWhenTappedAround()
 
+        #if !targetEnvironment(macCatalyst)
+            let edgePan = UIScreenEdgePanGestureRecognizer(
+                target: self,
+                action: #selector(handleSidebarEdgePan(_:)),
+            )
+            edgePan.edges = .left
+            edgePan.cancelsTouchesInView = false
+            view.addGestureRecognizer(edgePan)
+        #endif
+
         chatView.onCreateNewChat = { [weak self] in
             self?.requestNewChat()
         }

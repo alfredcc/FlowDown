@@ -8,6 +8,29 @@
 import UIKit
 
 extension MainController {
+    @objc func handleSidebarEdgePan(_ gesture: UIScreenEdgePanGestureRecognizer) {
+        guard presentedViewController == nil else { return }
+        guard isSidebarCollapsed else { return }
+        #if targetEnvironment(macCatalyst)
+            return
+        #else
+            let translation = gesture.translation(in: view)
+            let offset = max(0, translation.x)
+            switch gesture.state {
+            case .began, .changed:
+                updateLayoutGuide(withOffset: offset)
+            case .ended, .cancelled, .failed:
+                if offset > 100 {
+                    view.doWithAnimation { self.isSidebarCollapsed = false }
+                } else {
+                    updateLayoutGuideToOriginalStatus()
+                }
+            default:
+                break
+            }
+        #endif
+    }
+
     func updateGestureStatus(withOffset offset: CGFloat) -> Bool {
         updateLayoutGuide(withOffset: offset)
         if isSidebarCollapsed {
