@@ -10,7 +10,7 @@
 	<string>$(CLOUDKIT_CONTAINER_ENVIRONMENT)</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
 	<array>
-		<string>$(CLOUDKIT_SYNC_CONTAINER_IDENTIFIER)</string>
+		<string>iCloud.com.f.gpt.sync</string>
 	</array>
 	<key>com.apple.developer.icloud-services</key>
 	<array>
@@ -26,7 +26,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.wiki.qaq</string>
+		<string>group.com.f.gpt</string>
 	</array>
 	<key>com.apple.security.device.audio-input</key>
 	<true/>

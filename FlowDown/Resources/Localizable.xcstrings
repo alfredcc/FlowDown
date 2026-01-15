@@ -232,6 +232,7 @@
       }
     },
     "%@ • %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -370,6 +371,7 @@
       }
     },
     "%1$d servers imported successfully, %2$d failed." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -416,6 +418,7 @@
       }
     },
     "%1$d templates imported successfully, %2$d failed." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -462,6 +465,7 @@
       }
     },
     "%1$lld servers imported successfully, %2$lld failed." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -508,6 +512,7 @@
       }
     },
     "%1$lld templates imported successfully, %2$lld failed." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -600,6 +605,7 @@
       }
     },
     "%lld" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -2947,6 +2953,7 @@
       }
     },
     "An image is provided with this request. Consider the visual details when selecting the candidate." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6123,6 +6130,7 @@
       }
     },
     "Cancelled" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -6353,6 +6361,7 @@
       }
     },
     "Candidates:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -8147,6 +8156,7 @@
       }
     },
     "Collected %d attachments from tool %@." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -9987,6 +9997,7 @@
       }
     },
     "Content:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -14634,16 +14645,16 @@
     },
     "Due to system limitations, you must enable audio to use this feature." : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Due to system limitations, you must enable audio to use this feature."
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aufgrund von Systemeinschränkungen musst du Audio aktivieren, um diese Funktion zu verwenden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Due to system limitations, you must enable audio to use this feature."
           }
         },
         "es" : {
@@ -15969,16 +15980,16 @@
     },
     "Enable Live Activity" : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enable Live Activity"
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Live-Aktivität aktivieren"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Live Activity"
           }
         },
         "es" : {
@@ -36497,6 +36508,52 @@
         }
       }
     },
+    "Reasoning Effort" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reasoning-Aufwand"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reasoning Effort"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esfuerzo de razonamiento"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effort de raisonnement"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推論の労力"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추론 노력"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推理强度"
+          }
+        }
+      }
+    },
     "Reasoning Keys" : {
       "localizations" : {
         "de" : {
@@ -37326,6 +37383,7 @@
       }
     },
     "Requires iOS 26+" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -41330,16 +41388,16 @@
     },
     "Show a Live Activity while streaming in the background." : {
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show a Live Activity while streaming in the background."
-          }
-        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeige eine Live-Aktivität, während du im Hintergrund streamst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show a Live Activity while streaming in the background."
           }
         },
         "es" : {
@@ -41651,6 +41709,7 @@
       }
     },
     "Show Sidebar" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -49613,6 +49672,7 @@
       }
     },
     "Tool Provided Audio #%d" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -51086,6 +51146,7 @@
       }
     },
     "Unable to parse JSON: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -51868,6 +51929,7 @@
       }
     },
     "Unrestricted" : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -56560,6 +56622,7 @@
       }
     },
     "You are a classification assistant. Choose the best candidate for the provided content." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -57107,52 +57170,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你的隐私优先 AI 工作空间，将本地智能与强大云模型无缝融合。"
-          }
-        }
-      }
-    },
-    "Reasoning Effort" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reasoning Effort"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reasoning-Aufwand"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Esfuerzo de razonamiento"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Effort de raisonnement"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推論の労力"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "추론 노력"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推理强度"
           }
         }
       }

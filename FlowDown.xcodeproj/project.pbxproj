@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BB3A4332F18F9F10042E017 /* ChatClientKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1BB3A4322F18F9F10042E017 /* ChatClientKit */; };
 		50014D7F2D8A9B3C00C10932 /* GlyphixTextFx in Frameworks */ = {isa = PBXBuildFile; productRef = 50014D7E2D8A9B3C00C10932 /* GlyphixTextFx */; };
 		500373C52D62757700585574 /* ScrubberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 500373C42D62757700585574 /* ScrubberKit */; };
 		5017A3EF2EED53FD0023F420 /* FlowDownTranslationProvider.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 5017A3E82EED53FD0023F420 /* FlowDownTranslationProvider.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -125,6 +126,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1BB3A4342F18FAA70042E017 /* ChatClientKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ChatClientKit; sourceTree = "<group>"; };
 		5017A3E82EED53FD0023F420 /* FlowDownTranslationProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = FlowDownTranslationProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		503498BD2D23053D004672BD /* FlowDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50433EBF2F0D6A8200445939 /* FlowDownWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FlowDownWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +234,7 @@
 				505BC6F92D42A73600894BB0 /* AlertController in Frameworks */,
 				500373C52D62757700585574 /* ScrubberKit in Frameworks */,
 				50383CEA2D2E1E0D00426941 /* BetterCodable in Frameworks */,
+				1BB3A4332F18F9F10042E017 /* ChatClientKit in Frameworks */,
 				502BCBD12D43DB2B00500180 /* ConfigurableKit in Frameworks */,
 				505535BC2D72F38900F54B28 /* AlignedCollectionViewFlowLayout in Frameworks */,
 				5078496A2D285B5900B1F430 /* MarkdownView in Frameworks */,
@@ -279,6 +282,7 @@
 		503498B42D23053D004672BD = {
 			isa = PBXGroup;
 			children = (
+				1BB3A4342F18FAA70042E017 /* ChatClientKit */,
 				509EB03B2EE5411B00553C8A /* FlowDown */,
 				50D757BB2EC10A4400AEC087 /* FlowDownUnitTests */,
 				5017A3E92EED53FD0023F420 /* FlowDownTranslationProvider */,
@@ -377,6 +381,7 @@
 				506373A52EC0DC7900C8A9FB /* ColorfulX */,
 				50AE757D2EF436FC00D2C845 /* Collections */,
 				50AE757F2EF436FC00D2C845 /* OrderedCollections */,
+				1BB3A4322F18F9F10042E017 /* ChatClientKit */,
 			);
 			productName = FlowDown;
 			productReference = 503498BD2D23053D004672BD /* FlowDown.app */;
@@ -622,10 +627,11 @@
 				CODE_SIGN_IDENTITY = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(inherited)";
+				DEVELOPMENT_TEAM = 5FRV5G4F5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlowDownTranslationProvider/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "FlowDown Translate";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 FlowDown Team. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -633,15 +639,17 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = wiki.qaq.flow.FlowDownTranslationProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.f.gpt.FlowDownTranslationProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -654,10 +662,11 @@
 				CODE_SIGN_IDENTITY = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(inherited)";
+				DEVELOPMENT_TEAM = 5FRV5G4F5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlowDownTranslationProvider/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "FlowDown Translate";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 FlowDown Team. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -665,15 +674,17 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = wiki.qaq.flow.FlowDownTranslationProvider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.f.gpt.FlowDownTranslationProvider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 6.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -692,6 +703,7 @@
 				CODE_SIGN_IDENTITY = "$(inherited)";
 				CODE_SIGN_STYLE = "$(inherited)";
 				CURRENT_PROJECT_VERSION = "$(inherited)";
+				DEVELOPMENT_TEAM = 5FRV5G4F5S;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_ENHANCED_SECURITY = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -722,6 +734,8 @@
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use your audio data for speech recognition. Your data is processed by system; we do not collect that information.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "FlowDown requires this permission to save image for you. Your data will be saved locally.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We use your audio data for speech recognition. Your data is processed by system; we do not collect that information.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -734,6 +748,8 @@
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
 				MARKETING_VERSION = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.f.gpt;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.f.gpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
@@ -743,14 +759,14 @@
 				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
 				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_ENABLE_EXPLICIT_MODULES = YES;
 				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -769,6 +785,7 @@
 				CODE_SIGN_IDENTITY = "$(inherited)";
 				CODE_SIGN_STYLE = "$(inherited)";
 				CURRENT_PROJECT_VERSION = "$(inherited)";
+				DEVELOPMENT_TEAM = 5FRV5G4F5S;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_ENHANCED_SECURITY = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -799,6 +816,8 @@
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use your audio data for speech recognition. Your data is processed by system; we do not collect that information.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "FlowDown requires this permission to save image for you. Your data will be saved locally.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We use your audio data for speech recognition. Your data is processed by system; we do not collect that information.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -811,6 +830,7 @@
 				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
 				MARKETING_VERSION = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.f.gpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "$(inherited)";
 				REGISTER_APP_GROUPS = YES;
@@ -821,7 +841,7 @@
 				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
 				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
@@ -829,7 +849,7 @@
 				SWIFT_ENABLE_EXPLICIT_MODULES = YES;
 				SWIFT_STRICT_CONCURRENCY = minimal;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -971,6 +991,7 @@
 				CODE_SIGN_IDENTITY = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(inherited)";
+				DEVELOPMENT_TEAM = 5FRV5G4F5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlowDownWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FlowDownWidgets;
@@ -982,15 +1003,17 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = wiki.qaq.flow.FlowDownWidgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.f.gpt.FlowDownWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1004,6 +1027,7 @@
 				CODE_SIGN_IDENTITY = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(inherited)";
+				DEVELOPMENT_TEAM = 5FRV5G4F5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FlowDownWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FlowDownWidgets;
@@ -1015,15 +1039,17 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = wiki.qaq.flow.FlowDownWidgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.f.gpt.FlowDownWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1036,20 +1062,21 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = "$(inherited)";
 				CURRENT_PROJECT_VERSION = "$(inherited)";
+				DEVELOPMENT_TEAM = 5FRV5G4F5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wiki.qaq.FlowDownUnitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.f.gpt.FlowDownUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowDown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowDown";
 			};
 			name = Debug;
@@ -1063,19 +1090,20 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = "$(inherited)";
 				CURRENT_PROJECT_VERSION = "$(inherited)";
+				DEVELOPMENT_TEAM = 5FRV5G4F5S;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wiki.qaq.FlowDownUnitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.f.gpt.FlowDownUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowDown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowDown";
 			};
 			name = Release;
@@ -1302,6 +1330,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1BB3A4322F18F9F10042E017 /* ChatClientKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChatClientKit;
+		};
 		50014D7E2D8A9B3C00C10932 /* GlyphixTextFx */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 50014D7D2D8A9B0000C10932 /* XCRemoteSwiftPackageReference "GlyphixTextFx" */;
