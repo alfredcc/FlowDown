@@ -15,9 +15,14 @@ extension RichEditorView: UIImagePickerControllerDelegate, UINavigationControlle
         _ picker: UIImagePickerController,
         didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any],
     ) {
-        picker.dismiss(animated: true)
-        guard let image = info[.originalImage] as? UIImage else { return }
-        process(image: image)
+        let image = info[.originalImage] as? UIImage
+        picker.dismiss(animated: true) { [weak self] in
+            guard let self else { return }
+            if let image {
+                self.process(image: image)
+                self.focus()
+            }
+        }
     }
 
     public func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
@@ -27,7 +32,12 @@ extension RichEditorView: UIImagePickerControllerDelegate, UINavigationControlle
 
 extension RichEditorView: PHPickerViewControllerDelegate {
     public func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
-        picker.dismiss(animated: true)
+        let shouldFocus = !results.isEmpty
+        picker.dismiss(animated: true) { [weak self] in
+            if shouldFocus {
+                self?.focus()
+            }
+        }
         for result in results {
             result.itemProvider.loadObject(ofClass: UIImage.self) { [weak self] reading, _ in
                 guard let image = reading as? UIImage else { return }
