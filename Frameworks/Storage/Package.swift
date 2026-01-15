@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Storage",
     platforms: [
-        .iOS(.v16),
+        .iOS(.v17),
         .macCatalyst(.v16),
     ],
     products: [
