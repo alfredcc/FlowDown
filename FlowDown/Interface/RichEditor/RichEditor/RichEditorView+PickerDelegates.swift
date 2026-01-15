@@ -19,8 +19,8 @@ extension RichEditorView: UIImagePickerControllerDelegate, UINavigationControlle
         picker.dismiss(animated: true) { [weak self] in
             guard let self else { return }
             if let image {
-                self.process(image: image)
-                self.focus()
+                process(image: image)
+                focus()
             }
         }
     }

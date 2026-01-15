@@ -547,12 +547,10 @@ extension RichEditorView: ControlPanel.Delegate {
     }
 
     func onControlPanelOpen() {
-        quickSettingBar.hide()
         inputEditor.isControlPanelOpened = true
     }
 
     func onControlPanelClose() {
-        quickSettingBar.show()
         inputEditor.isControlPanelOpened = false
     }
 }

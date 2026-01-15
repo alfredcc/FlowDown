@@ -25,8 +25,8 @@ class RichEditorView: EditorSectionView {
 
     let attachmentsBar = AttachmentsBar()
     let inputEditor = InputEditor()
-    let quickSettingBar = QuickSettingBar()
     let controlPanel = ControlPanel()
+    var quickSettingBar: QuickSettingBar { controlPanel.quickSettingBar }
 
     let shadowContainer = UIView()
     let colorfulShadow = ColorfulShadowView()
@@ -37,7 +37,6 @@ class RichEditorView: EditorSectionView {
     lazy var sectionSubviews: [EditorSectionView] = [
         attachmentsBar,
         inputEditor,
-        quickSettingBar,
         controlPanel,
     ]
 
@@ -92,7 +91,7 @@ class RichEditorView: EditorSectionView {
         quickSettingBar.delegate = self
         attachmentsBar.delegate = self
 
-        quickSettingBar.horizontalAdjustment = spacing
+        quickSettingBar.horizontalAdjustment = 0
         Task { @MainActor in
             updateModelinfoFile()
             restoreEditorStatusIfPossible()
